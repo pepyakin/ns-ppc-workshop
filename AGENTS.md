@@ -44,6 +44,20 @@ Always run with `--dry-run` first when:
 
 `--dry-run` shows the price without actually charging.
 
+### Cap session deposits with `--max-spend`
+
+Some services (LLMs like `gemini`, `openai`, `openrouter`, `anthropic`, etc. — anything with `intent: session` in `tempo wallet -t services <id>`) auto-open a payment channel on first use. The CLI default deposits **$1.00** per channel, which gets locked until the session is closed. With only $1 of workshop budget, a single default-deposit channel eats the whole bag.
+
+Pass `--max-spend` on session-priced calls to cap the deposit (the flag sets the deposit 1:1, not just a per-call ceiling):
+
+```
+tempo request -t --max-spend 0.20 -X POST --json '{...}' <SERVICE_URL>/<ENDPOINT_PATH>
+```
+
+`$0.20` is a sensible default for workshop calls. Use a smaller value (e.g. `0.05`) for one-off cheap calls, larger if you know you'll make many calls to the same origin.
+
+When you're done with a session-priced service — or at the end of the workshop — run `tempo wallet sessions close --all` to recover any unused deposit back to the wallet's available balance.
+
 ## 4. Save artifacts to `./out/`
 
 `out/` is gitignored. Put everything you generate there: rendered HTML, decks, songs, images, output URLs, transcripts. The user shows what's in `out/` during show-and-tell.
