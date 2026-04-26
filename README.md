@@ -55,7 +55,9 @@ Below are three prompts you can copy-paste. But the real fun is writing your own
 
 </details>
 
-### Some other one offs:
+### Single-call curiosities
+
+Each of these is a one-shot call — fun to poke at, but they don't really show off the point. The real win is chaining services into something bigger. Still, each is its own little oddity:
 
 - **Billboard** — post to @MPPBillboard on X. Price starts at $0.01 and **doubles with every post**. Native pay-per-call anti-spam.
 - **Doma** — register a real `.com` / `.xyz` / `.ai` / `.io` / `.net` domain onchain. Heads-up: priced in real dollars, ~$13+ per year.
