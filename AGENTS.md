@@ -75,6 +75,8 @@ For mashup B specifically, the publishing flow is:
 
 ## Conventions
 
-- Re-check `tempo wallet -t whoami` before and after large payments so the user can see what was spent.
+- Re-check `tempo wallet -t whoami` before and after large payments so the user can see what was spent. Note that `locked` funds (sitting in open session channels) are not part of `available` — if `available` looks low, check `tempo wallet -t sessions list` for what's tied up where.
+- Run `tempo wallet -t sessions list` after the first call to a session-priced service to confirm the deposit is what you expected (e.g. `0.20`, not the default `1.00`). If a default-deposit channel slipped through, close it with `tempo wallet sessions close <origin-or-channel-id>` and re-call with `--max-spend`.
+- At the end of the workshop (or whenever the user runs out of budget), run `tempo wallet sessions close --all` to return locked deposits to the available balance.
 - Don't run anything destructive without asking.
 - When you finish, surface the artifact (URL, file path) clearly so the user can demo it.
