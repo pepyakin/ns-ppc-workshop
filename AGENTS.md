@@ -9,23 +9,23 @@ You're in a workshop participant's cloned workspace. Your job: install the tempo
    - Run `tempo wallet login` — this opens a browser; the user authenticates with the same passkey they registered at https://wallet.tempo.xyz/.
    - Verify with `tempo wallet -t whoami`.
 2. Inspect the `whoami` balance.
+   - The workshop master seeds each participant with $1 via a referral code.
    - If it's positive → continue to step 1.
    - If it's 0 → tell the user to go to https://wallet.tempo.xyz/ → **Add Funds** → **Claim referral code** → enter the 6-char code from the slide.
+   - If the user runs out of funds or needs more mid-session, it's on the table to ask the workshop master for an additional referral code.
    - **Do NOT run `tempo wallet fund`.** That's a testnet faucet / mainnet bridge — not a referral redemption path. Running it will not redeem a referral code.
 
 ## 1. Pick something to build
 
-Ask the user which seed idea they want, or what they'd rather do. The seeds (full descriptions in `README.md`):
-
-- **A. Country-style weather song** — `openweather` → LLM → `suno`.
-- **B. Research pack → Marp deck → here.now** — multi-source research, render as Marp, publish.
-- **C. Bring your own.**
+Ask the user which seed idea they want, or what they'd rather do. The full descriptions are 
+to be found in the README.md. 
 
 Whatever they pick, scope it small. A single 30-minute session is the budget.
 
 ## 2. Discover services
 
-`services.md` has a curated catalog grouped by category. The full live catalog (91 services) is at https://mpp.dev/services or via `tempo wallet -t services --search <query>`.
+`services.md` has a curated catalog grouped by category. The full live catalog can 
+be listed via `tempo wallet -t services --search <query>`.
 
 To inspect a specific service: `tempo wallet -t services <SERVICE_ID>`.
 
