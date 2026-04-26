@@ -58,14 +58,18 @@ tempo request -t --max-spend 0.20 -X POST --json '{...}' <SERVICE_URL>/<ENDPOINT
 
 When you're done with a session-priced service — or at the end of the workshop — run `tempo wallet sessions close --all` to recover any unused deposit back to the wallet's available balance.
 
-## 4. Save artifacts to `./out/`
+## 4. Save artifacts to `./out/<codename>/`
 
-`out/` is gitignored. Put everything you generate there: rendered HTML, decks, songs, images, output URLs, transcripts. The user shows what's in `out/` during show-and-tell.
+`out/` is gitignored. **Before writing the first artifact, pick a short kebab-case codename for the build and `mkdir -p out/<codename>/`.** Everything you generate — rendered HTML, decks, songs, images, output URLs, transcripts, intermediate JSON — goes under that folder, never directly into `out/`. Workshop participants run multiple builds across sessions, and a flat `out/` quickly becomes an unreadable junk drawer of mixed projects.
+
+Pick the codename from the build itself (e.g. `porch-in-petaling` for a song about that, `brothers-deck` for a slide deck about brothers). If `out/` already has subfolders, glance at them first to avoid name collisions and to orient yourself on prior work.
+
+The user shows what's in `out/<codename>/` during show-and-tell.
 
 For mashup B specifically, the publishing flow is:
 
-1. Write the deck as Marp markdown (e.g., `out/deck.md`).
-2. Render: `npx --yes @marp-team/marp-cli@latest out/deck.md --html -o out/deck.html`.
+1. Write the deck as Marp markdown (e.g., `out/<codename>/deck.md`).
+2. Render: `npx --yes @marp-team/marp-cli@latest out/<codename>/deck.md --html -o out/<codename>/deck.html`.
 3. Publish to here.now (docs at https://here.now/docs). The 3-step API:
    - `POST https://here.now/api/v1/publish` with a file manifest → returns presigned upload URLs, a finalize URL, and a `siteUrl`. **Save the `claimToken` immediately — it's only returned once.**
    - `PUT` the file body to the presigned URL.
