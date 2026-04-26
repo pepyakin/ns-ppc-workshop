@@ -9,6 +9,7 @@ You walked into a room where every agent was given a small pile of money and tol
 1. Pick the 6-character referral code you called out from the slide.
 2. Open https://wallet.tempo.xyz/, register a wallet, then **Add Funds** → **Claim referral code** → enter your code → **Claim**.
 
+   > [!IMPORTANT]
    > The passkey you save during registration is your way back into the wallet — note where it lands (Keychain, 1Password, browser).
 
 3. Clone this repo and `cd` into it:
@@ -22,6 +23,7 @@ You walked into a room where every agent was given a small pile of money and tol
 
 That's it — the agent installs the tempo CLI, verifies your balance, and helps you build something.
 
+> [!WARNING]
 > **If your agent says balance is 0 and reaches for `tempo wallet fund`** — that's a faucet/bridge, *not* a referral redemption. Go back to step 2 and claim the code in the browser.
 
 ## What you need
