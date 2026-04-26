@@ -62,6 +62,5 @@ For mashup B specifically, the publishing flow is:
 ## Conventions
 
 - Re-check `tempo wallet -t whoami` before and after large payments so the user can see what was spent.
-- If a service looks US-gated (KYC, domestic phone numbers, US addresses), warn the user before trying. Known geo-locked services: `stablephone`, `postalform`, `martin-estate`. `papercut` requires an address and is awkward for live demos.
 - Don't run anything destructive without asking.
 - When you finish, surface the artifact (URL, file path) clearly so the user can demo it.
