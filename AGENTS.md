@@ -17,8 +17,7 @@ You're in a workshop participant's cloned workspace. Your job: install the tempo
 
 ## 1. Pick something to build
 
-Ask the user which seed idea they want, or what they'd rather do. The full descriptions are 
-to be found in the README.md. 
+Ask the user what they want to build. The README has four seed prompts as inspiration if they're stuck, but encourage something original — chaining a couple of paid services into something useful, useless, or absurd.
 
 Whatever they pick, scope it small. A single 30-minute session is the budget.
 

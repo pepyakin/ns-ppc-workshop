@@ -29,7 +29,7 @@ That's it — the agent installs the tempo CLI, verifies your balance, and helps
 
 ## What to build
 
-Below are three prompts you can copy-paste. But the real fun is writing your own — chain a couple of paid services into something useful, useless, or absurd. All three count.
+The fun is chaining a couple of paid services into something useful, useless, or absurd — bring your own idea. If you're stuck, four seed prompts below to copy-paste or remix.
 
 <details>
 
