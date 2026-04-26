@@ -23,9 +23,6 @@ You walked into a room where every agent was given a small pile of money and tol
 
 That's it — the agent installs the tempo CLI, verifies your balance, and helps you build something.
 
-> [!WARNING]
-> **If your agent says balance is 0 and reaches for `tempo wallet fund`** — that's a faucet/bridge, *not* a referral redemption. Go back to step 2 and claim the code in the browser.
-
 ## What you need
 
 - **Laptop with an agent set up.** [Claude Code](https://docs.claude.com/en/docs/claude-code/overview) install: `curl -fsSL https://claude.ai/install.sh | bash`, then `claude` in any directory.
