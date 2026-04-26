@@ -44,10 +44,11 @@ Try this prompt:
 
 ### C. Bring your own mashup
 
-A few real services worth poking at:
+> Come up with a landing page for a fake product: tape for mouth for losing weight. The landing page must be well designed. Colorful. Generate people happily using the product. Iterate on the images. Deploy to here.now and double-check the result.
+
+Some other one offs:
 
 - **Billboard** — post to @MPPBillboard on X. Price starts at $0.01 and **doubles with every post**. Native pay-per-call anti-spam.
-- **Prospect Butcher** — order a real sandwich for pickup in Brooklyn (impractical from here but the API works).
 - **Doma** — register a real `.com` / `.xyz` / `.ai` / `.io` / `.net` domain onchain. Heads-up: priced in real dollars, ~$13+ per year.
 - **Stripe Climate** — fund permanent carbon removal.
 
