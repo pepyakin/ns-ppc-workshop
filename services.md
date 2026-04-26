@@ -23,6 +23,8 @@ A subset of the [live MPP catalog](https://mpp.dev/services) (91 services), grou
 - `firecrawl` — Scrape, crawl, structured extraction for LLMs. [`firecrawl.mpp.tempo.xyz`](https://firecrawl.mpp.tempo.xyz) · [docs](https://docs.firecrawl.dev)
 - `oxylabs` — Geo-targeted scraping (country/state/city) with JS rendering. [`oxylabs.mpp.tempo.xyz`](https://oxylabs.mpp.tempo.xyz) · [docs](https://developers.oxylabs.io/scraper-apis/web-scraper-api)
 - `diffbot` — Article / product / discussion / image / video extraction. [`diffbot.mpp.paywithlocus.com`](https://diffbot.mpp.paywithlocus.com) · [docs](https://docs.diffbot.com)
+- `browserbase` — Headless browser sessions + structured web search + page fetch ($0.12/hour sessions). [`mpp.browserbase.com`](https://mpp.browserbase.com) · [docs](https://docs.browserbase.com)
+- `surf` — Pay-per-use Twitter / Reddit / GitHub / web search + crawl + OpenAI-compat chat (not in catalog; first-party MPP). [`surf.cascade.fyi`](https://surf.cascade.fyi) · [docs](https://surf.cascade.fyi/llms.txt)
 
 ## People & company enrichment
 
