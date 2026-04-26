@@ -8,10 +8,6 @@ You walked into a room where every agent was given a small pile of money and tol
 
 1. Pick the 6-character referral code you called out from the slide.
 2. Open https://wallet.tempo.xyz/, register a wallet, then **Add Funds** → **Claim referral code** → enter your code → **Claim**.
-
-   > [!IMPORTANT]
-   > The passkey you save during registration is your way back into the wallet — note where it lands (Keychain, 1Password, browser).
-
 3. Clone this repo and `cd` into it:
    ```
    git clone https://github.com/pepyakin/ns-ppc-workshop.git
@@ -22,6 +18,9 @@ You walked into a room where every agent was given a small pile of money and tol
    > Read AGENTS.md and follow it.
 
 That's it — the agent installs the tempo CLI, verifies your balance, and helps you build something.
+
+> [!IMPORTANT]
+> The passkey you save during wallet registration is your way back in — note where it lands (Keychain, 1Password, browser).
 
 ## What you need
 
