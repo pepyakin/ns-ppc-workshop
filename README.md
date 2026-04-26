@@ -32,19 +32,29 @@ That's it — the agent installs the tempo CLI, verifies your balance, and helps
 
 Three seed ideas. You can pick one, but it's much better if you invent your own — anything that strings together a couple of paid services into a small useful (or absurd) result counts.
 
-### A. Country-style weather song
+<details>
 
-Try this prompt:
+<summary><b>Sing today's forecast</b></summary>
 
 > Use ifconfig.me to lookup my ip. Using an mpp service lookup its geo location. After you obtain it get me the forecast for this week. Then create a song in a country style using Suno, let suno generate the lyrics. Then generate an appropriate cover image for this single.
 
-### B. Research pack → Marp deck → here.now
+</details>
+
+<details>
+
+<summary><b>Deck a real person</b></summary>
 
 > Create a slide deck about Patrick Collison and his Stripe. Do a proper due dillegence. Find pictures of him and of this company and put them into the slides. When you finish host it annonymously on here.now. For slides use MARP.
 
-### C. Bring your own mashup
+</details>
 
-> Come up with a landing page for a fake product: tape for mouth for losing weight. The landing page must be well designed. Colorful. Generate people happily using the product. Iterate on the images. Deploy to here.now and double-check the result.
+<details>
+
+<summary><b>Land a fake product</b></summary>
+
+Come up with a landing page for a fake product: tape for mouth for losing weight. The landing page must be well designed. Colorful. Generate people happily using the product. Iterate on the images. Deploy to here.now and double-check the result.
+
+</details>
 
 ### Some other one offs:
 
@@ -54,7 +64,7 @@ Try this prompt:
 
 ## Service catalog
 
-[`services.md`](./services.md) is a curated subset grouped by category. The full live catalog (91 services) is at https://mpp.dev/services. Anything listed there is fair game — point your agent at the `service_url` and let it figure out the rest.
+[`services.md`](./services.md) is a curated subset grouped by category. Anything listed there is fair game — point your agent at the `service_url` and let it figure out the rest.
 
 ## Show-and-tell
 
