@@ -74,6 +74,7 @@ When we regroup, share what you (or your agent) made. A working demo, a result U
 ## Further reading
 
 - [mpp.dev](https://mpp.dev) — the MPP service catalog ([direct list](https://mpp.dev/services)).
+- [awesome-mpp](https://github.com/mbeato/awesome-mpp) — community-maintained list of MPP services and demos.
 - [mppscan.com](https://www.mppscan.com/) — MPP ecosystem traction.
 - [paymentauth.org](https://paymentauth.org/) — the IETF spec.
 - [tempo.xyz](https://tempo.xyz/)
