@@ -51,7 +51,7 @@ Below are three prompts you can copy-paste. But the real fun is writing your own
 
 <summary><b>Land a fake product</b></summary>
 
-Come up with a landing page for a fake product: tape for mouth for losing weight. The landing page must be well designed. Colorful. Generate people happily using the product. Iterate on the images. Deploy to here.now and double-check the result.
+> Come up with a landing page for a fake product: tape for mouth for losing weight. The landing page must be well designed. Colorful. Generate people happily using the product. Iterate on the images. Deploy to here.now and double-check the result.
 
 </details>
 
