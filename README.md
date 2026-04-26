@@ -67,7 +67,7 @@ Below are three prompts you can copy-paste. But the real fun is writing your own
 
 ## Show-and-tell
 
-When we regroup, share what you (or your agent) made. A working demo, a result URL, a transcript, a song file, a postcard — whatever.
+When we regroup, share what your agent shipped. A working demo, a result URL, a transcript, a song file, a postcard — whatever.
 
 ## Contact
 
