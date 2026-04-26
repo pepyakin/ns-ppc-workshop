@@ -55,6 +55,14 @@ Below are three prompts you can copy-paste. But the real fun is writing your own
 
 </details>
 
+<details>
+
+<summary><b>Plan a real trip</b></summary>
+
+> Plan me a trip to Japan for May. I fly from Singapore. I am with my gf. We have the whole month. It's not our first time in Japan, so skip the Tokyo-Kyoto-Osaka cliche. Priorities: temples/culture and nature/hiking. I want to save money but I don't want to miss out on experiences. Avoid Golden Week.
+
+</details>
+
 ### Single-call curiosities
 
 Each of these is a one-shot call — fun to poke at, but they don't really show off the point. The real win is chaining services into something bigger. Still, each is its own little oddity:
